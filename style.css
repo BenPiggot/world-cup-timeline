@@ -1,0 +1,155 @@
+* {
+  font-style: helvetica-neue;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+@font-face {
+    font-family: 'Dreamland';
+    src: url('dreamlan.tff');
+}
+
+#soccer {
+  background-color: #eee;
+  z-index: 1;
+}
+
+img {
+  height: auto;
+  width: 90px;
+}
+
+#header  {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 1.5% auto;
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#subheader  {
+  font-weight: 400;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 35px;
+  margin-top: -0.3em;
+  text-align: center;
+}
+
+#visualization {
+  margin: 5% auto;
+  height: 30%;
+  width: 90%;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.caption {
+  margin-bottom: 0.2em;
+}
+
+#hidden {
+  font-weight: 200;
+  width: 90%;
+  height: 660px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin: 2% auto;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  text-align: center;
+  font-size: 25px;
+/*  border: 1px solid black;*/
+  display: none;
+  z-index: 100;
+}
+
+#hidden-header {
+  margin-top: 0.4em;
+  margin-bottom: 0.5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 50px;
+}
+
+#off {
+  line-height: 36px;
+  position: absolute;
+  font-size: 16px;
+  top: 3px;
+  right: 3px;
+  height: 32px;
+  width: 60px;
+  color: #000;
+  cursor: pointer;
+}
+
+#player {
+    width: 640px;
+   height: 390px;
+}
+
+.blurb {
+/*  font-family: "Roboto", sans-serif;*/
+  font-weight: 200;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1em;
+}
+
+#click-thru {
+  font-weight: 100;
+  font-size: 14px;
+/*  vertical-align: text-bottom;*/
+  display: inline;
+}
+
+#show-graph {
+/*  float: right;
+  margin-right: 4em;
+  margin-bottom: 7em;*/
+  width: 20%;
+  float: center;
+  margin: -2% 40% 2% 40%;
+
+}
+
+#hidden-visualization {
+  font-weight: 200;
+  width: 90%;
+  height: 560px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 2% auto;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  text-align: center;
+  font-size: 25px;
+/*  border: 1px solid black;*/
+  display: none;
+  z-index: 100;
+}
+
+#off-vis {
+  line-height: 36px;
+  position: absolute;
+  font-size: 16px;
+  bottom: 3px;
+  right: 3px;
+  height: 32px;
+  width: 60px;
+  color: #000;
+  cursor: pointer;
+}
