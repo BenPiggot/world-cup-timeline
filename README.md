@@ -8,4 +8,4 @@ the world's most important sporting event in a innovative and visually appealing
 
 ### Technologies
 As noted, this project uses the visjs library and YouTube API to build its interactive timeline. To check out the site, visit
-http://world-cup-timeline.bitballoon.com.
+http://worldcuptimeline.bitballoon.com.
